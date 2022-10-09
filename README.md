@@ -8,8 +8,9 @@ An extension for Chromium-based browsers to interact with non-HID USB devices to
 1. Autofills the data into forms when the subscribing page URL is in context.
 
 # Supported Platforms
-* Microsoft Windows
 * Chromium-based browsers (e.g., Google Chrome, Microsoft Edge, Brave)
+
+Note: Microsoft Windows only.
 
 # Installation
 COMING SOON
@@ -23,7 +24,8 @@ This extension is very flexible as you can configure both the source of and dest
 - Run a test to confirm that the hardware integration is working. 
 
 # Technical Specifications
-Uses Chromium's [Native Messaging](https://developer.chrome.com/docs/apps/nativeMessaging) specifications as the basis for communicating with connected USB devices.
+* Deployed as a Google [Browser Extensions](https://developer.chrome.com/docs/extensions/mv3/getstarted/extensions-101) to support web-based applications that are run using Chromium browsers.
+* Uses Google [Native Messaging](https://developer.chrome.com/docs/apps/nativeMessaging) specifications for Chromium browsers as the basis for communicating with connected USB devices.
 
 # License
 COMING SOON
