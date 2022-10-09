@@ -14,8 +14,16 @@ An extension for Chromium-based browsers to interact with non-HID USB devices to
 # Installation
 COMING SOON
 
+# Configuration 
+This extension is very flexible as you can configure both the source of and destination for the data. There are no limits on the number of source devices and no limits on then number of destination fields or pages. The mapping from source to destination is fully configurable. 
+- Register source hardware device(s). 
+- Register URL's that will activate the data listener. This can be a URL fragment too. 
+- Select the input field for the desired page that will be consuming the data. 
+- Configure the regex to parse and relay the data to the target input field. 
+- Run a test to confirm that the hardware integration is working. 
+
 # Technical Specifications
-COMING SOON
+Uses Chromium's [Native Messaging](https://developer.chrome.com/docs/apps/nativeMessaging) specifications as the basis for communicating with connected USB devices.
 
 # License
 COMING SOON
