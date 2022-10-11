@@ -1,5 +1,8 @@
 # Introduction
-An extension for Chromium-based browsers to interact with non-HID USB devices to collect any data emitted by the device.
+An extension for Chromium-based browsers to interact with non-HID USB devices for collecting any data emitted by the device.
+
+# Screenshots & Demo
+COMING SOON
 
 # Features
 1. Connects to any USB device that communicates using DLL classes.
@@ -8,9 +11,10 @@ An extension for Chromium-based browsers to interact with non-HID USB devices to
 1. Autofills the data into forms when the subscribing page URL is in context.
 
 # Supported Platforms
-* Chromium-based browsers (e.g., Google Chrome, Microsoft Edge, Brave)
+* Chromium-based browsers: Google Chrome, Microsoft Edge, Brave
 
-Note: Microsoft Windows only.
+Note: This extension will work in Microsoft Windows only because the native host executable for many devices are windows-based.
+Note 2: If you need this extension to work for a non-Windows-based operating system, please contact me for a custom plugin.
 
 # Installation
 COMING SOON
